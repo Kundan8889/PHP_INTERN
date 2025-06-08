@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Signup</title>
+  <link rel="stylesheet" href="signup.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>User Signup</h2>
+    <form action="signup.php" method="POST">
+      <label for="username">Username</label>
+      <input type="text" name="username" required />
+
+      <label for="password">Password</label>
+      <input type="password" name="password" required />
+
+      <button type="submit">Sign Up</button>
+    </form>
+     <p style="margin-top: 15px;">
+      Already a user? <a href="login.html">Login here</a>
+    </p>
+  </div>
+</body>
+</html>
